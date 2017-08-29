@@ -1,0 +1,25 @@
+
+
+.square {
+    background-color: rgba(45, 61, 147, 0.14);
+    border: 3px solid #B02E2E;
+    float: left;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 120px;
+    height: 120px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 120px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #0A320C;
+  }
+  
