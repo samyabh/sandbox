@@ -1,28 +1,12 @@
-import React from 'react';
+import React from 'react-dom';
 import ReactDOM from 'react-dom';
-import Board from './Board.js';
+import Game from './Game.js';
 
 import './index.css';
 
-class Game extends React.Component {
-  render() {
-    return (
-      <div className="game">
-        <div className="game-board">
-          <Board />
-        </div>
-        <div className="game-info">
-          <div>{/* status */}</div>
-          <ol>{/* TODO */}</ol>
-        </div>
-      </div>
-    );
-  }
-}
+
 
 // ========================================
 
-ReactDOM.render(
-  <Game />,
-  document.getElementById('root')
-);
+ReactDOM.render(<Game />, document.getElementById("root"));
+

@@ -1,7 +1,5 @@
-
-
 .square {
-    background-color: rgba(45, 61, 147, 0.14);
+    background-color: rgb(45, 61, 147);
     border: 3px solid #B02E2E;
     float: left;
     font-size: 42px;
