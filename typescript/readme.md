@@ -24,3 +24,6 @@ name of the file : `tsconfig.json`
 `tslint src/ts/app.ts`
 
 To see rules possibilities : https://palantir.github.io/tslint/rules/ 
+
+### improvements : 
+- Change index.html location
