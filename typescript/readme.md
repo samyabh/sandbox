@@ -1,4 +1,4 @@
-### Learning TypeScript
+### TypeScript
 
 ### Requirements :
 npm install --global typescript
