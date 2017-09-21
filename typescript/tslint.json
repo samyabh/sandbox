@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "no-eval": true,
+    "semicolon": true
+  }
+}
