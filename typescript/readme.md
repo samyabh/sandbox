@@ -25,5 +25,10 @@ name of the file : `tsconfig.json`
 
 To see rules possibilities : https://palantir.github.io/tslint/rules/ 
 
+### tests
+- `npm install --save-dev jasmine`
+- `npm install jasmine @types/jasmine`
+- `jasmine init`
+
 ### improvements : 
 - Change index.html location
