@@ -3,8 +3,8 @@ import Board from './Board.js';
 
 import './Game.css';
 
-
 export default class Game extends React.Component {
+
     constructor() {
       super();
       this.state = {
@@ -101,4 +101,3 @@ function calculateWinner(squares) {
     }
     return null;
   }
-  
