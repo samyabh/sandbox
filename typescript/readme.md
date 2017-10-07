@@ -32,3 +32,4 @@ To see rules possibilities : https://palantir.github.io/tslint/rules/
 
 ### improvements : 
 - Change index.html location
+- finish tests
