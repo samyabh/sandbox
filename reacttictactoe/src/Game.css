@@ -1,12 +1,16 @@
-.game {
-    display: flex;
-    flex-direction: row;
+
+ .title{
+    top:5%;
+    display: block;
+    width:100%;
+    text-align: center;
+    color:rgb(7, 9, 9);
   }
-  
+
+
   .game-info {
     margin-left: 20px;
   }
-  
 
 
 ol, ul {
