@@ -1,5 +1,6 @@
 import React from 'react';
 import Board from './Board.js';
+import FontAwesome from 'react-fontawesome';
 
 import './Game.css';
 
@@ -50,14 +51,14 @@ export default class Game extends React.Component {
       const winner = calculateWinner(current.squares);
   
       const moves = history.map((step, move) => {
-        const desc = move ? "Move #" + move : "Game start";
+        const desc = move ? "Move #" + move : "Game start : " ;
         return (
           <li key={move}>
             <button href="#" onClick={() => this.jumpTo(move)}>{desc}</button>
           </li>
         );
       });
-  
+
       let status;
       if (winner) {
         status = "Winner: " + winner;
@@ -77,10 +78,12 @@ export default class Game extends React.Component {
             />
           </div>
           <div className="game-info">
-            <div>{status}</div>
+            <div><FontAwesome
+            name='refresh'
+            size='2x' /> {status} </div>
             <ol>{moves}</ol>
-          </div>
         </div>
+      </div>
       );
     }
   }
