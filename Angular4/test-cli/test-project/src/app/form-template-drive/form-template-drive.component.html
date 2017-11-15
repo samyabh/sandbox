@@ -1,0 +1,23 @@
+<h1> Form template driven</h1>
+<form (submit)="login(myForm)" #myForm="ngForm">
+
+  <div class="form-group">
+    <label for="nom">Nom</label>
+    <input ngModel=""  type="text" name="nom" class="form-control" id="nom"  placeholder="Enter nom">
+  </div>
+
+  <div class="form-group">
+    <label for="prenom">Prénom</label>
+    <input ngModel="" type="text" name="prenom" class="form-control" id="prenom"  placeholder="Enter prénom">
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input ngModel="" type="email" name="email" class="form-control" id="email" placeholder="Enter email">
+  </div>
+
+  <button type="submit">Submit</button>
+</form>
+
+<form>
+<pre>{{myForm.value | json}}</pre>

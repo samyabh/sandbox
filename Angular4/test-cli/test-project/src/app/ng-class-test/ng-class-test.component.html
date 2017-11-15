@@ -1,0 +1,11 @@
+
+<div>
+  <h1>Test ng class</h1>
+  <div [ngClass]="{'redColor':classActivated, 'blueColor': !classActivated}">
+    Avec NgClass text to be colorized depending on the button
+  </div>
+  <!--<div [ngStyle] = styleVariable ></div>-->
+  <button (click)="classActivated = !classActivated">Change color</button>
+
+  <span>{{classActivated}}</span>
+</div>

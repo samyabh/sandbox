@@ -1,0 +1,16 @@
+<h1>Reactive form module</h1>
+<form [formGroup] = "myForm" (submit)="login()">
+
+  <div class="form-group">
+    <label for="nom">Nom</label>
+    <input  type="text" name="nom" class="form-control" id="nom"  placeholder="Enter nom">
+  </div>
+
+  <div class="form-group">
+    <label for="prenom">Prénom</label>
+    <input type="text" name="prenom" class="form-control" id="prenom"  placeholder="Enter prénom">
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

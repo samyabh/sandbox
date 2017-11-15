@@ -1,0 +1,20 @@
+<div>
+  <div *ngFor="let compte of comptes">
+
+    <app-compte (childEvent)="showOwner($event)" [owner]=compte.owner [compte] = compte ></app-compte>
+
+    <hr>
+  </div>
+
+  <div *ngIf="updatedOwner" class="notification owner">{{updatedOwner}}</div>
+
+
+
+    <mat-card *ngFor="let user of users">
+      <!--{{user | json}}-->
+      <mat-card-content>
+        {{ user.name}}
+      </mat-card-content>
+
+    </mat-card>
+</div>

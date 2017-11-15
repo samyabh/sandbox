@@ -1,0 +1,9 @@
+.notification{
+    margin-top:100px;
+
+    padding:20px;
+    background-image:linear-gradient(#8eff60, #86f15b);
+}
+.owner{
+    font-weight:bold;
+}
